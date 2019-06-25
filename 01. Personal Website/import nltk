@@ -1,0 +1,23 @@
+import nltk
+# nltk.download('punkt')
+
+from nltk.tokenize import word__tokenize
+
+text = open('grimm.txt').read()
+
+words = word__tokenize(text)
+
+dictionary = {}
+
+for word in words:
+  lower = word.lower()
+  if low not in dictionary:
+    dictionary[low] = 0
+  dictionary[low] = dictionary[low] + 1
+  
+with open("results.txt", "w") as textFile:
+   for word in sorted(dictionary):
+  #for word in sorted (dictionary, key=dictionary.get, reverse=True):
+    line = word + " " + str(dictionary[word]) + "\n"
+    textFile.write(line)
+

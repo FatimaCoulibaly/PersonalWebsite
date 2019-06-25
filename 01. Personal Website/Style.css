@@ -1,0 +1,64 @@
+ul.a {
+    list-style-type: circle;
+    line-height: 3;
+    font-size: 300;
+}
+
+/* Place the navbar at the bottom of the page, and make it stick */
+nav 2 {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h2{
+	font-weight: 450;
+
+}
+
+h3 a {
+	font-weight: 450;
+
+}
+
+
+h3 {
+	letter-spacing:1px;
+	line-height: 2;
+	text-decoration: ;
+}
+
+
+
+h5{
+	letter-spacing: 3px;
+	word-spacing: 7px;
+	margin-left: 40px;
+}
+
+h2{
+	line-height: 2;
+}
+
+hide-on-med-and-down{
+
+	letter-spacing: 1px;
+
+}
+
+Tabs{
+	margin-right: 40px;
+
+}
+
+p{
+	line-height:2;
+	font-size: 18px;
+	margin: auto;
+}
+
+
+style {"text-decoration: line-through
+
+}
